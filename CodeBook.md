@@ -5,7 +5,7 @@ Course project for Getting and Cleaning Data
 
 Downloaded all data files and moved to new folder, "CleaningData".
 
-Set working directory to UCI HAR Dataset, and created run_analysis.R and CodeBook.md files.  Loaded data.table package.
+Set working directory to UCI HAR Dataset, and created run_analysis.R and CodeBook.md files.  Loaded data.table and reshape2 packages.
 
 First, read files into R - used fread() on small files (y_train.txt, subject_train.txt, y_test.txt, subject_test.txt, features.txt, and activity_labels.txt) and read.table on large files (X_test.txt and X_train.txt).  Called as.data.table() on large files.
 
