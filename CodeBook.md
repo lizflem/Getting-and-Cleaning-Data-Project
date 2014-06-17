@@ -25,4 +25,4 @@ Used grep() to place column names containing "mean" (but not "meanFreq") and "st
 
 ## Creating data set of averages for mean and std data
 
-Set "Activity" and "Subject" as my data table's keys, and then computed the means for all present variables, based on those keys, producing data table "aveDT".  Used reshape function from the reshape2 package to position data in long format for improved readability (aveDT_long).  Finally, captured print out of entire table in text file.
+Set "Activity" and "Subject" as my data table's keys, and then computed the means for all present variables, based on those keys, producing data table "aveDT".  Used reshape function from the reshape2 package to position data in long format for improved readability (aveDT_long).  Finally, increased maximum print length and captured print out of entire table in text file.
